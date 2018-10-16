@@ -24,7 +24,7 @@
    
 　　ArrayList 实现了**RandomAccess 接口**，即提供了随机访问功能。RandomAccess 是 Java 中用来被 List 实现，为 List 提供**快速访问功能**的。在 ArrayList 中，我们即可以通过元素的序号快速获取元素对象，这就是快速随机访问。
   
-　　ArrayList 实现了**Cloneable 接口**，即覆盖了函数 clone()，**能被克隆**。
+　　ArrayList 实现了**Cloneable 接口**，即覆盖了Object类clone方法，**能被克隆**。
   
 　　ArrayList 实现**java.io.Serializable 接口**，这意味着ArrayList**支持序列化**，**能通过序列化去传输**。
   
